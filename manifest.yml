@@ -1,0 +1,6 @@
+applications:
+- name: demo-jni
+  path: target/demo-jni-cf-0.0.1-SNAPSHOT.jar
+  memory: 768m
+  env:
+    _JAVA_OPTIONS: -Djava.library.path=/home/vcap/app
